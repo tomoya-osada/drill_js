@@ -1,6 +1,6 @@
 // test/someTest.js
 const assert = require("assert")
-const myMethod = require("../Hello")
+const myMethod = require("../01_Hello")
 
 describe("probrems1", () => {
   it("呼び出すとHello Worldを返すメソッド", () => {
