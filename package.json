@@ -1,0 +1,14 @@
+{
+  "name": "drill_js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tomoya-osada/drill_js.git",
+  "author": "Tomoya Osada <tomoya.osada@livesense.co.jp>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "mocha": "^3.4.1"
+  }
+}
