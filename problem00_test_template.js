@@ -1,7 +1,6 @@
 const assert = require("assert")
 const myMethod = require("../XX_Problem")
 
-
 describe("problemsXX", () => {
   it("# XX", () => {
       const input = "some input "
