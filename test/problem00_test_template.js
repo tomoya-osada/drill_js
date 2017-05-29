@@ -1,9 +1,8 @@
-// test/someTest.js
 const assert = require("assert")
-const myMethod = require("../someMethod")
+const myMethod = require("../XX_Problem")
 
 
-describe("probrems", () => {
+describe("probremsXX", () => {
   it("# XX", () => {
       const input = "some input "
       const output = myMethod(input)
