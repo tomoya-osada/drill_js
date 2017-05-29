@@ -3,7 +3,7 @@ const assert = require("assert")
 const myMethod = require("../03_AddSecondArg")
 
 
-describe("probrems3", () => {
+describe("problems3", () => {
   it("単語を2つとって、「(1つ目の単語) (2つ目の単語) (2つ目の単語) (2つ目の単語)」", () => {
       const input1 = 'Hello'
       const input2 = 'World'

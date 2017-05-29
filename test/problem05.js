@@ -3,7 +3,7 @@ const assert = require("assert")
 const myMethod = require("../05_CountString2")
 
 
-describe("probrems5", () => {
+describe("problems5", () => {
   it("文字列1中に文字列2が何個含まれるかの判定 ", () => {
       const input1 = "Veni, vidi, vici"
       const input2 = "vi"
