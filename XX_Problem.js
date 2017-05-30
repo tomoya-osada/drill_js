@@ -1,5 +1,5 @@
 // 問題文
-function MethodName(XXXX){
+function methodName(XXXX){
 }
 
-module.exports = MethodName
+module.exports = methodName
