@@ -1,5 +1,5 @@
 function AddEn(int) {
-  return int += "円"
+  return `${int}円`
 }
 
 module.exports = AddEn;
