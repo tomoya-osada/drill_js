@@ -2,7 +2,7 @@
 // 出力: 入力値を逆順にする 
 
 function ReverseArray(array){
-    return array.reverse()
+    return [...array].reverse()
 }
 
 module.exports = ReverseArray
