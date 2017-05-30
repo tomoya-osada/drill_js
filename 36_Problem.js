@@ -1,7 +1,10 @@
 // 入力: Array[Int]
 // 処理: [ [偶数値], [奇数値] ]の形で返す
 function selectEvenOdd(arr){
-    return arr.reduce((memo, item) => (item % 2 == 0 ? memo[0].push(item) : memo[1].push(item), memo) , [[],[]])
-}
+    const evenArr = arr.filter((e) => e % 2 === 0 )
+    const oddArr = arr.filter((e) => e % 2 === 1)
+
+    return [evenArr, oddArr]
+ }
 
 module.exports = selectEvenOdd
